@@ -9,6 +9,15 @@ pip install -r requirements.txt
 ```
 
 ### 2. Configure Database
+Configure Database (MySQL)
+
+```
+CREATE DATABASE swift_shuttle_db;
+SHOW DATABASES;
+USE swift_shuttle_db;
+SHOW TABLES;
+SELECT * FROM api_user;
+```
 Update `settings.py` to use MySQL on **port 3306**:
 ```python
 DATABASES = {
